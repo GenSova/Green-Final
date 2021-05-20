@@ -15,8 +15,8 @@ export class NavbarComponent implements OnInit {
   searchText;
   games$: Game[];
   logoElement1 = "org";
-  logoElement2 = "торрент";
-  logoElement3 = "игруха";
+  logoElement2 = "electro";
+  logoElement3 = "cars";
   loginStatus = false;
   userID: number;
   userData: any;

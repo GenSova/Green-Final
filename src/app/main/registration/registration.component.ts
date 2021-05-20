@@ -26,7 +26,7 @@ export class RegistrationComponent implements OnInit {
   registrationProcess(){
     if (this.formGroup.valid) {
       this.authService.login(this.formGroup.value).subscribe(result => {
-        alert('Вы успешно зарегистрировались :)');
+        alert('Registration is successful :)');
       });
     }
   }

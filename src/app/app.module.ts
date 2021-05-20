@@ -23,6 +23,7 @@ import {Ng2SearchPipeModule} from 'ng2-search-filter';
 import {DeactivateGuard} from './guards/deactivate.guard';
 import { LoginComponent } from './navbar/login/login.component';
 import { SubscribesComponent } from './main/profile/subscribes/subscribes.component';
+import { ImpactComponent } from './main/impact/impact.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { SubscribesComponent } from './main/profile/subscribes/subscribes.compon
     CommentsComponent,
     LoginComponent,
     SubscribesComponent,
+    ImpactComponent,
   ],
   imports: [
     BrowserModule,

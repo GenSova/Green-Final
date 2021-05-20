@@ -13,6 +13,6 @@ export class DeactivateGuard implements CanDeactivate<RegistrationComponent | Co
     component: RegistrationComponent | RecoverComponent | ContactsComponent,
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean> | Promise<boolean> | boolean {
-    return confirm('Изменения не будут сохранены. Вы действительно хотите покинуть страницу?');
+    return confirm('Changes will not be saved. Are you sure you want to leave this page?');
   }
 }

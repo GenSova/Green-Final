@@ -40,12 +40,12 @@ export class LoginComponent implements OnInit {
         this.IsLoggedIn.emit(this.loggedIn);
         this.accountID.emit(this.ID);
         this.router.navigate(['']);
-        alert("Рады вас видеть " + this.user.login + " :)");
+        alert("Welcome back " + this.user.login + " :)");
       }else {
-        alert("Ой, что-то пошло не так :(");
+        alert("Something went wrong :(");
       }
     } else {
-      alert("Ой, что-то пошло не так :(");
+      alert("Something went wrong :(");
     }
   }
 

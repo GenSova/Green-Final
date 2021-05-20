@@ -9,6 +9,7 @@ import {RegistrationComponent} from './main/registration/registration.component'
 import {GamePageComponent} from './main/game-page/game-page.component';
 import {DeactivateGuard} from './guards/deactivate.guard';
 import {SubscribesComponent} from './main/profile/subscribes/subscribes.component';
+import {ImpactComponent} from './main/impact/impact.component';
 
 const routes: Routes = [
   {
@@ -44,6 +45,10 @@ const routes: Routes = [
   {
     path: 'subscribes',
     component: SubscribesComponent
+  },
+  {
+    path: 'impact',
+    component: ImpactComponent
   },
 ];
 
